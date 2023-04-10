@@ -2,9 +2,7 @@ import os
 import shutil
 
 
-nameOfProblem = input("Enter the name of the problem: ")
-nameOfProblem = nameOfProblem.replace(" ", "_")
-nameOfProblem = nameOfProblem.lower()
+nameOfProblem = input("Enter the name of the problem: ").replace(" ", "_").lower()
 
 try:
     os.mkdir(nameOfProblem)
