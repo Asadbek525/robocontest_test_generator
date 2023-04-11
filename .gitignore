@@ -1,9 +1,6 @@
-*.zip
 *.vscode
 *.vscode-test
 *.vsix
 *.idea
-dir_to_ignore/*
-*/
 __pycache__/
 ```
