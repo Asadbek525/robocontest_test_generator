@@ -4,6 +4,6 @@
 *.vsix
 *.idea
 dir_to_ignore/*
+*/
 __pycache__/
 ```
-
