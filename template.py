@@ -2,7 +2,11 @@ import os
 from random import randint
 
 
-os.mkdir('tests')
+try:
+    os.mkdir('tests')
+except FileExistsError:
+    pass
+
 
 start = 1
 end = 100
