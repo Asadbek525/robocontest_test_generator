@@ -32,4 +32,4 @@ cd sample_problem
 python zipper.py
 ```
 
-### You can publish tests.zip file to robocontest.uz
+### You can publish tests.zip file to [robocontest.uz](https://robocontest.uz/home)
