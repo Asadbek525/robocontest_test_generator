@@ -1,5 +1,5 @@
 # robocontest_test_generetor
-While add new problems to robocontest.uz, some new user have problem with generating test cases. This repo might be helpful!
+While adding new problems to robocontest.uz, some new user have problem with generating test cases. This repo might be helpful!
 
 ## How to use
 ### clone this project
