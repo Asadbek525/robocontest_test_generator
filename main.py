@@ -16,4 +16,3 @@ shutil.copyfile("checker.py", nameOfProblem + "/" + "checker.py")
 shutil.copyfile("template.cpp", nameOfProblem + "/" + "generate" + ".cpp")
 shutil.copyfile("checker.cpp", nameOfProblem + "/" + "checker" + ".cpp")
 shutil.copyfile("zipper.py", nameOfProblem + "/" + "zipper.py")
-
