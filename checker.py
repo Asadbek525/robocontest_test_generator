@@ -13,3 +13,4 @@ def check():
     a_out = open("output.txt", "r").read()
     u_ans = open("user.txt", "r").read()
     u_code = open("code.txt", "r").read()
+check()
