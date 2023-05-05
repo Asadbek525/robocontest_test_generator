@@ -10,7 +10,7 @@ tl = 0xAF
 
 def check():
     a_in = open("input.txt", "r").read()
-    a_out = open("output.txt", "r").read()
+    a_out = open("author.txt", "r").read()
     u_ans = open("user.txt", "r").read()
     u_code = open("code.txt", "r").read()
 check()
