@@ -9,35 +9,47 @@
 #define pe 0xAE
 #define tl 0xAF
 
-    using namespace std;
+using namespace std;
 
 typedef long long ll;
 typedef unsigned long long ull;
 
-int main()
-{
-    ifstream ain("input.txt");
-    ifstream aout("author.txt");
-    ifstream uout("user.txt");
-    ifstream code("code.txt");
-    
-    try
-    {
-        
-    }
-    catch(const std::exception& e)
-    {
-        
-    }
+ifstream input("input.txt");
+ifstream output("author.txt");
+ifstream user_output("user.txt");
+ifstream code("code.txt");
 
-    
-
-
-
-    ain.close();
-    aout.close();
-    uout.close();
+void close(int x) {
+    input.close();
+    output.close();
+    user_output.close();
     code.close();
+    exit(x);
 }
 
+int main()
+{
+    // a + b misol uchun checker
+    try {
+        ll ans, user_ans;
+        output >> ans;
+        user_output >> user_ans;
 
+        // user javob sifatida 1 tadan ortiq son chiqargan taqdirda
+        string s;
+        if (user_output >> s) {
+            close(pe);
+        }
+
+        if (ans == user_ans) {
+            close(ac);
+        }
+        else {
+            close(wa);
+        }
+
+    }
+    catch {
+        close(pe);
+    }
+}
