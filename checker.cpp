@@ -49,7 +49,7 @@ int main()
         }
 
     }
-    catch {
+    catch (const std::exception& e) {
         ret(pe);
     }
 }
