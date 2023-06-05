@@ -30,4 +30,3 @@ python zipper.py
 ```
 
 ### tests.zip faylini [robocontest.uz](https://robocontest.uz/home) ga joylashtirishingiz mumkin.
-```
