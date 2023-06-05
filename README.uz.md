@@ -1,4 +1,4 @@
-[![uz](https://img.shields.io/badge/lang-uz-red.svg)](https://github.com/Asadbek525/robocontest_test_generetor/blob/main/README.md)
+[![uz](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Asadbek525/robocontest_test_generetor/blob/main/README.md)
 # robocontest_test_generetor
 Robocontest.uz ga yangi masalalar qo'shishda, ba'zi yangi foydalanuvchilar test holatlarni yaratishda muammoga duch kelishadi. 
 Ushbu repository ularga yordam berishi mumkin!
