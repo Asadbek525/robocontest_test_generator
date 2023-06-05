@@ -24,8 +24,8 @@ string to_4digit(int n) {
 
 signed main() {
 
-    // open tests folder
-    system("mkdir tests");
+    // check tests folder exists or not, if not, create it
+    system("if [ ! -d tests ]; then mkdir tests; fi");
     // A + B example
     int from = 1;
     int to = 100;
