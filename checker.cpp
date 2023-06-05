@@ -19,7 +19,7 @@ ifstream output("author.txt");
 ifstream user_output("user.txt");
 ifstream code("code.txt");
 
-void close(int x) {
+void ret(int x) {
     input.close();
     output.close();
     user_output.close();
@@ -38,18 +38,18 @@ int main()
         // user javob sifatida 1 tadan ortiq son chiqargan taqdirda
         string s;
         if (user_output >> s) {
-            close(pe);
+            ret(pe);
         }
 
         if (ans == user_ans) {
-            close(ac);
+            ret(ac);
         }
         else {
-            close(wa);
+            ret(wa);
         }
 
     }
     catch {
-        close(pe);
+        ret(pe);
     }
 }
