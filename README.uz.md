@@ -6,11 +6,11 @@ Ushbu repository ularga yordam berishi mumkin!
 ## Foydalanish yo'riqnomasi
 ### Ushbu loyihani o'zingizga yuklab oling yoki clone qilib oling
 ```sh
-git clone https://github.com/Asadbek525/robocontest_test_generetor.git
+git clone https://github.com/Asadbek525/robocontest_test_generator.git
 ```
 ### Loyiha joylashgan directoryga kirsh
 ```sh
-cd robocontest_test_generetor
+cd robocontest_test_generator
 ```
 
 ### Har bir masala uchun alohida papka va fayllar ochiladi. sample_problem - masala nomi.  
