@@ -5,11 +5,11 @@ While adding new problems to robocontest.uz, some new users have problems with g
 ### How to use
 clone this project
 ```sh
-git clone https://github.com/Asadbek525/robocontest_test_generetor.git
+git clone https://github.com/Asadbek525/robocontest_test_generator.git
 ```
 enter working directory
 ```sh
-cd robocontest_test_generetor
+cd robocontest_test_generator
 ```
 
 start generating test cases
